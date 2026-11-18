@@ -50,8 +50,16 @@ footer{border-top:1px solid var(--border);background:var(--bg);padding:28px 0;fo
 footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center;justify-content:space-between}
 footer nav{display:flex;flex-wrap:wrap;gap:8px 22px}
 footer a{color:var(--soft)}
+.brand{flex-shrink:0}
+.topnav{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:0 18px}
+.follow{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;margin:18px 0 0;font:700 13px/1 'JetBrains Mono',monospace;letter-spacing:2px;text-transform:uppercase}
+.follow span{color:var(--muted)}
+.follow a{color:var(--soft);text-decoration:none;padding:10px 0}
+.follow a:hover,.navlink:hover{color:var(--green)}
+@media (max-width:520px){.topnav{gap:0 12px}.navlink{letter-spacing:1px;font-size:12px}}
 @media (max-width:720px){.grid3{grid-template-columns:1fr}.hero{padding-top:24px}}
 </style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"BPM Lab Music","url":"https://bpmlabmusic.com/","email":"bpmlabmusic@gmail.com","sameAs":["https://www.youtube.com/@BPMLabMusic","https://www.instagram.com/bpmlabmusic/","https://www.facebook.com/1430093430188486","https://www.threads.com/@bpmlabmusic"]}</script>
 </head>
 <body>
 <header class="top">
@@ -59,7 +67,12 @@ footer a{color:var(--soft)}
 <a class="brand" href="./" aria-label="BPM Lab Music, home">
 <svg viewBox="0 0 640 220" aria-hidden="true"><g transform="translate(4,10)"><path d="M0 100 H40 Q50 82 60 100 H78 L88 114 L102 6 L116 150 L126 100 H146 Q162 74 178 100 H188" fill="none" stroke="#3DFF8F" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><g stroke-width="9" stroke-linecap="round"><line x1="200" y1="82" x2="200" y2="118" stroke="#9AA7B4"/><line x1="212" y1="68" x2="212" y2="132" stroke="#9AA7B4"/><line x1="224" y1="54" x2="224" y2="146" stroke="#3FA9F5"/><line x1="236" y1="72" x2="236" y2="128" stroke="#3FA9F5"/><line x1="248" y1="44" x2="248" y2="156" stroke="#3DDC84"/><line x1="260" y1="62" x2="260" y2="138" stroke="#3DDC84"/><line x1="272" y1="76" x2="272" y2="124" stroke="#FF9F1C"/><line x1="284" y1="58" x2="284" y2="142" stroke="#FF9F1C"/><line x1="296" y1="84" x2="296" y2="116" stroke="#FF3B47"/><line x1="308" y1="92" x2="308" y2="108" stroke="#FF3B47"/></g></g><text x="348" y="152" font-family="Big Shoulders Display" font-weight="900" font-size="160" fill="#F2F3F5" letter-spacing="2">BPM</text><text x="352" y="204" font-family="JetBrains Mono" font-weight="700" font-size="34" fill="#3DFF8F" letter-spacing="22">LAB</text></svg>
 </a>
+<nav class="topnav" aria-label="BPM Lab Music on social media">
 <a class="navlink" href="https://www.youtube.com/@BPMLabMusic" rel="noopener">YouTube</a>
+<a class="navlink" href="https://www.instagram.com/bpmlabmusic/" rel="noopener">Instagram</a>
+<a class="navlink" href="https://www.facebook.com/1430093430188486" rel="noopener">Facebook</a>
+<a class="navlink" href="https://www.threads.com/@bpmlabmusic" rel="noopener">Threads</a>
+</nav>
 </div>
 </header>
 
@@ -77,6 +90,7 @@ footer a{color:var(--soft)}
 Watch on YouTube · @BPMLabMusic
 </a>
 <p class="soon">First sessions arrive in December 2026.</p>
+<p class="follow"><span>Follow</span><a href="https://www.instagram.com/bpmlabmusic/" rel="noopener">Instagram @bpmlabmusic</a><a href="https://www.facebook.com/1430093430188486" rel="noopener">Facebook</a><a href="https://www.threads.com/@bpmlabmusic" rel="noopener">Threads @bpmlabmusic</a></p>
 </div>
 </section>
 
@@ -109,6 +123,12 @@ Watch on YouTube · @BPMLabMusic
 <a href="privacy/">Privacy Policy</a>
 <a href="terms/">Terms of Service</a>
 <a href="mailto:bpmlabmusic@gmail.com">bpmlabmusic@gmail.com</a>
+</nav>
+<nav aria-label="Social">
+<a href="https://www.youtube.com/@BPMLabMusic" rel="noopener">YouTube</a>
+<a href="https://www.instagram.com/bpmlabmusic/" rel="noopener">Instagram</a>
+<a href="https://www.facebook.com/1430093430188486" rel="noopener">Facebook</a>
+<a href="https://www.threads.com/@bpmlabmusic" rel="noopener">Threads</a>
 </nav>
 </div>
 </footer>
